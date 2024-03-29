@@ -70,11 +70,18 @@
   text-transform: uppercase;
 }
 
+#highlights{
+    padding:24px;
+    background:linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
 #destinations {
   display: flex;
   width: 90%;
   margin-bottom: 40px;
   text-align: center;
+  justify-content: center;
+  margin: 20px auto;
 }
 
 .destination p{
